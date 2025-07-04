@@ -1,7 +1,6 @@
 # Use the official Ubuntu image
 FROM ubuntu:latest
 
-
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Install SSH server and other dependencies

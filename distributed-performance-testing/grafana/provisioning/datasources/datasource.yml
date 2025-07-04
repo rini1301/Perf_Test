@@ -11,4 +11,4 @@ datasources:
       defaultBucket: jmeter_data
     secureJsonData:
       token: 5rX2uEJgCoEhIYU0C71aWY8XEJpu8J38LQUA2GKg43evoSEFF2vUup3ite0K_vCxb9p2GobGIxeaknJPIo5ssQ==
-    url: http://influxdb:8086
+    url: http://172.28.100.2:8086

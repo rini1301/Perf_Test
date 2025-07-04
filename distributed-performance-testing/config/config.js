@@ -16,7 +16,7 @@ module.exports = {
     influxDbOrg: process.env.INFLUXDB_ORG,
     influxDbBucket: process.env.INFLUXDB_BUCKET,
     influxDbToken: process.env.INFLUXDB_TOKEN,
-    influxDbUrl: `http://influxdb:8086/api/v2/write?org=${process.env.INFLUXDB_ORG}&bucket=${process.env.INFLUXDB_BUCKET}&precision=ns`,
+    influxDbUrl: `http://172.28.100.2:8086`,
     applicationName: process.env.APPLICATION_NAME || 'jmeter_app',
     grafanaUser: process.env.GRAFANA_ADMIN_USER,
     grafanaPassword: process.env.RAFANA_ADMIN_PASSWORD,
